@@ -57,7 +57,7 @@ const long interval = 2000;              // interval at which to read sensor
 void setup(void)
 {
 
-  // Nastav vsechny piny na zapis a nastav nizkou hodnotu.
+  // Set pins for led-wifi, led-relais and relais to write and LOW.
  pinMode(led_wifi_ok, OUTPUT);
  digitalWrite(led_wifi_ok, LOW);
 
