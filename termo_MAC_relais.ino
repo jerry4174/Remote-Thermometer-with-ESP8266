@@ -2,7 +2,7 @@
    Remote measure of temperature and humidity.
   
    Version 1.0  5/3/2014  Version 1.0   Mike Barela for Adafruit Industries, many thanks!
-   Version 2.0  23/10/2021 Jerry Veverka:
+   Version 2.0  23/10/2021 Jerry was here:
    - MAC in router sets fixed TCP/IP for the ESP8266
    - set on/off relais to switch on/off a heating or something another without any temperature control
    - LED green supply connect direct to 5V, LED blue WiFi on, LED red relais on
@@ -20,12 +20,8 @@
 #define led_wifi_ok       4     // blue
 #define led_relais_on     5     // red
 
-
-//const char* ssid     = "TP-Link_689A";
-//const char* password = "20028305";
-
-const char* ssid     = "A1-3c0661";
-const char* password = "l24fq7ae3wyh";
+const char* ssid     = "xxxxxxxxxxx";
+const char* password = "yyyyyyyyyyy";
 
 
 
@@ -47,11 +43,6 @@ String webString="";     // String to display
 // Generally, you should use "unsigned long" for variables that hold time
 unsigned long previousMillis = 0;        // will store last temp was read
 const long interval = 2000;              // interval at which to read sensor
-
-
-
-
-
 
 
 void setup(void)
