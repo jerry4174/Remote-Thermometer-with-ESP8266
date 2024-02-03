@@ -19,3 +19,7 @@ Load the program to the ESP8266, check the wifi connection.
 Test the function of the thermometer in monitor.  
 Test the wifi connection first local, then remote.  
 Use adapted index - anonym.php file to see results in a browser. 
+
+
+## License 
+Distributed under the MIT License. See https://en.wikipedia.org/wiki/MIT_License for more information.
